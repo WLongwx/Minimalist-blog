@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background: #454545;
     line-height: 1.7;
@@ -80,4 +84,8 @@ a, body{
 .article-list .item > *
 .article > *{
     margin: 10px 0px;
+}
+
+#menu-checkbox,#menu-toggle{
+    display: none;
 }
